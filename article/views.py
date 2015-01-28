@@ -6,6 +6,7 @@ from django.http import Http404
 from datetime import datetime
 
 
+
 # Create your views here.
 def home(request):
     post_list = Article.objects.all() #获取全部Article对象
